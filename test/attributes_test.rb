@@ -23,7 +23,7 @@ describe Hanami::Utils::Attributes do
 
     it "ignores hash default" do
       attributes = Hanami::Utils::Attributes.new{|h,k| h[k] = [] }
-      attributes.get('uknown').must_be_nil
+      attributes.get('unknown').must_be_nil
     end
 
     it 'recursively stringify keys' do
