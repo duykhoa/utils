@@ -307,7 +307,7 @@ module Hanami
         @string
       end
 
-      alias_method :to_str,  :to_s
+      alias_method :to_str, :to_s
 
       # Equality
       #
